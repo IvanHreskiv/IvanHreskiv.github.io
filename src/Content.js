@@ -8,14 +8,14 @@ export default class Content extends Component {
     return (
       <Container>
       <Row>
-          <Col className="text-light" >
+          <Col className="text-light">
             <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
               <CardTitle>We are PRV</CardTitle>
               <CardText>Comming soon.</CardText>
               <Button>Learn More</Button>
              </Card>
           </Col>
-          <Col className="text-light" >
+          <Col className="text-light">
             <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
               <CardTitle>Special Title Treatment</CardTitle>
               <CardText>Comming soon.</CardText>
@@ -24,14 +24,14 @@ export default class Content extends Component {
           </Col>
       </Row>
       <Row>
-          <Col className="text-light" >
+          <Col className="text-light">
             <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
               <CardTitle>Reward calculator</CardTitle>
               <CardText>Comming soon.</CardText>
               <Button>Learn More</Button>
              </Card>
           </Col>
-          <Col className="text-light" >
+          <Col className="text-light">
             <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
               <CardTitle>Charts</CardTitle>
               <CardText>Comming soon.</CardText>

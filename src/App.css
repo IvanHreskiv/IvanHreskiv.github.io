@@ -1,14 +1,13 @@
 .App {
   background-color: #1e1e2f;
-  background-size: cover;
-  position: absolute;
   height: 100%;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  position: absolute
 }
 
+.Footer {
+  position: absolute;
+  bottom: 0;
+}
 
 #lab_social_icon_footer .social:hover {
   -webkit-transform: scale(1.1);

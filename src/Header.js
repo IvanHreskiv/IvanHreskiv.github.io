@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Container, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 export default class Header extends Component {
   constructor(props) {
@@ -18,7 +18,7 @@ export default class Header extends Component {
   }
   render() {
     return (
-      <div>
+      <Container>
         <Navbar color="faded" light>
           <NavbarBrand href="/" className="mr-auto text-light">prv</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
@@ -33,7 +33,7 @@ export default class Header extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-      </div>
+      </Container>
     );
   }
 }
